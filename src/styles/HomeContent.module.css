@@ -1,0 +1,103 @@
+.container {
+  height: 100% !important;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.homeHead {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.homeinfo {
+  position: relative;
+  width: 100%;
+  text-align: center;
+
+  min-height: 226px;
+  direction: rtl;
+}
+
+.icon {
+  height: 50px;
+  margin-bottom: 0.5rem;
+}
+.container h1.charity {
+  font-family: "Gandom";
+  margin-bottom: 1rem;
+  font-size: 15px;
+}
+.container h1.mahta {
+  padding-bottom: 0.5rem;
+  font-size: 15px;
+}
+.container h2 {
+  font-size: 12px;
+  font-family: "Gandom";
+}
+.container h1.mahta,
+h2.mahta {
+  font-family: "Gandom";
+  margin-top: -1rem;
+}
+.container p {
+  text-align: center;
+  margin: 0.5rem 1.5rem;
+  font-weight: 500;
+  direction: rtl;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+@media (min-width: 413px) {
+  .container h1.mahta {
+    font-size: 25px;
+  }
+  .container h2 {
+    font-size: 23px;
+  }
+  .container p {
+    font-size: 20px;
+  }
+  .logo {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (min-width: 1023px) {
+  .homeHead {
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+  .logo {
+    width: 150px;
+    height: 150px;
+  }
+
+  .container .homeinfo {
+    text-align: center;
+  }
+  .container .homeHead h1 {
+    font-size: 2.2rem;
+  }
+
+  .container {
+    margin-bottom: 5rem;
+  }
+}
+@media (min-width: 1439px) {
+  .homeHead {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}

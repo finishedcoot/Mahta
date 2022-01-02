@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.headImg {
+  object-fit: cover;
+}
+.title {
+  margin: auto;
+  margin-top: 1rem;
+}
+.galleryContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.galleryContainer img {
+  object-fit: cover;
+  height: 10rem;
+  margin-top: 1rem;
+}
+@media (min-width: 767px) {
+  .galleryContainer img {
+    height: 15rem;
+  }
+}

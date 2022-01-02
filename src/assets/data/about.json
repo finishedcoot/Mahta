@@ -1,0 +1,51 @@
+[{   "id": 10,
+   "type":"activities",
+   "subCategories": {
+    "swim":{
+        "id": 11,
+           "title":"عنوان",
+           "img":["/statics/About/act2.jpeg","/statics/About/act3.jpeg"]
+       },
+       "trip":{
+        "id": 12,
+        "title":"عنوان",
+        "img":["/statics/About/act4.jpeg"]
+    },
+    "worldTrombosisDay":{
+        "id": 13,
+        "title":"عنوان",
+        "img":["/statics/About/act13.jpeg","/statics/About/act6.jpeg"]
+    },
+    "consult":{
+        "id": 14,
+        "title":"عنوان",
+        "img":["/statics/About/act7.jpeg","/statics/About/act8.jpeg"]
+    },
+    "teaching":{
+        "id": 15,
+        "title":"عنوان",
+        "img":["/statics/About/act90.jpg","/statics/About/act9.jpeg","/statics/About/act10.jpeg"]
+    },
+    "lab":{
+        "id": 16,
+        "title":"عنوان",
+        "img":["/statics/About/act11.jpeg"]
+    },
+    "internationalHemophiliaCongress":{
+        "id": 17,
+        "title":"عنوان",
+        "img":["/statics/About/act12.jpeg"]
+    },
+    "worldHemophiliaDay":{
+        "id": 18,
+        "title":"عنوان",
+        "img":["/statics/About/act14.jpg"]
+    }
+   }
+    
+ },
+{   "id": 19,
+    "type":"staff",
+    "img":["/statics/About/staff1.jpeg","/statics/About/staff2.jpg","/statics/About/staff3.jpg","/statics/About/staff4.jpg","/statics/About/staff6.jpeg"]
+
+     }]

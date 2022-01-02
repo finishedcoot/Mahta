@@ -1,0 +1,54 @@
+/* @value colors: "../../../colors.css";
+@value primary, secondery, third, fourth from colors; */
+.card_body {
+  display: flex;
+  flex-direction: row;
+  height: 22rem;
+  width: 15rem;
+
+  justify-content: space-around;
+  position: relative;
+
+  margin-bottom: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.modal {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.card_body:hover {
+  cursor: pointer;
+}
+
+.card_image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  padding: 0.1rem;
+}
+
+.description {
+  position: relative;
+  text-decoration: none;
+  color: whitesmoke;
+  direction: rtl;
+  font-size: 15px;
+  right: 8px;
+  bottom: 0;
+  margin: 0;
+}
+.title {
+  margin: 0;
+  font-size: 22px;
+  text-align: center;
+  background-color: var(--third);
+  padding: 8px 0;
+}
+
+@media (min-width: 560px) {
+  .card_body {
+    margin-bottom: 100px;
+  }
+}

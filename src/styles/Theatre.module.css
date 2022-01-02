@@ -1,0 +1,113 @@
+.container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.clipsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.clipCard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  margin-bottom: 3rem;
+}
+.largVideoContainer {
+  width: 100%;
+  height: 15rem;
+}
+.thumbnail {
+  box-shadow: 1px 1px 8px 0.5px rgba(0, 0, 0, 0.4);
+  object-fit: cover;
+}
+.clipCard p {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.755);
+  padding: 0;
+  margin: 0;
+  direction: ltr;
+}
+.clipCard h3 {
+  font-family: "iranyekan";
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  direction: ltr;
+}
+.modal {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(27, 24, 24, 0.699);
+}
+.playerContainer {
+  width: 100%;
+}
+
+@media (min-width: 767px) {
+  .clipCard {
+    width: 45%;
+  }
+  .thumbnail {
+    width: 100%;
+    height: 100%;
+  }
+  .clipCard h3 {
+    font-size: 1rem;
+  }
+  .clipCard p {
+    font-size: 0.8rem;
+  }
+  .largClip {
+    width: 80%;
+    text-align: center;
+  }
+  .largVideoContainer {
+    width: 100%;
+    height: 25rem;
+  }
+  .playerContainer {
+    width: 80%;
+  }
+}
+@media (min-width: 1023px) {
+  .clipCard {
+    width: 25%;
+  }
+  .largClip {
+    width: 80%;
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+  .largClip h3 {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+  .largVideoContainer {
+    width: 100%;
+    height: 35rem;
+  }
+  .playerContainer {
+    width: 60%;
+    height: 60%;
+  }
+}

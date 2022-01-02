@@ -1,0 +1,31 @@
+.container2 {
+  width: 100% !important;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
+  overflow: hidden !important;
+}
+
+.fade-enter {
+  opacity: 0.01;
+  z-index: 300;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 0.01;
+  transition: opacity 1000ms ease-in-out;
+}
+.fade-enter.fade-enter-done {
+  opacity: 1;
+  transition: opacity 1000ms linear;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 500ms linear;
+}

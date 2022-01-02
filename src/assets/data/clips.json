@@ -1,0 +1,49 @@
+[{  
+    "id": 1,
+    "url":"childsView",
+    "title":"از دیدگاه یک کودک هموفیلی",
+    "desc":"هموفیلی از دیدگاه یک کودک (هند) دوبله شده در موسسه مهتا",
+    "clipUrl":"/statics/Clips/childsView.mp4",
+    "clipCover":"statics/Clips/childsView.png"
+},
+{  
+    "id": 2,
+    "url":"emicizumab",
+    "title":"امی سی زومب پروفلاکسی",
+    "desc":"امی سی زومب پروفلاکسی در بیماران هموفیل آ با مهار کننده",
+    "clipUrl":"/statics/Clips/emicizumab.mp4",
+    "clipCover":"statics/Clips/emicizumab.png"
+},
+{  
+    "id": 3,
+    "url":"hemophiliaAndExercise",
+    "title":"ورزش",
+    "desc":"هموفیلی و ورزش،دوبله شده در موسسه خیریه مهتا",
+    "clipUrl":"/statics/Clips/hemophiliaAndExercise.mp4",
+    "clipCover":"statics/Clips/hemophiliaAndExercise.png"
+},
+{  
+    "id": 4,
+    "url":"swim",
+    "title":"شنا",
+    "desc":[""],
+    "clipUrl":"/statics/Clips/swim.mp4",
+    "clipCover":"statics/Clips/swim.png"
+},
+{  
+    "id": 5,
+    "url":"kneeJoint",
+    "title":"مفصل زانو",
+    "desc":["عملکرد مفصل زانو در بیماران هموفیلی "],
+    "clipUrl":"/statics/Clips/kneeJoint.mp4",
+    "clipCover":"statics/Clips/kneeJoint.png"
+},
+{  
+    "id": 6,
+    "url":"medicineOnMove",
+    "title":"داروها در حرکت",
+    "desc":["PK پروفلاکسی و نمودار "],
+    "clipUrl":"/statics/Clips/medicineOnMove.mp4",
+    "clipCover":"statics/Clips/medicineOnMove.png"
+}
+]

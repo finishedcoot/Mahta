@@ -1,0 +1,50 @@
+.container {
+  width: 90%;
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.helpMahta {
+  font-family: "gandom";
+  font-size: 1.2rem;
+  margin: auto;
+}
+.video_container {
+  height: 10.7rem;
+}
+.icon {
+  width: 80px;
+  height: 80px;
+}
+.explanation {
+  font-family: "iranyekan";
+  text-align: center;
+  font-size: 0.9rem;
+}
+.accountNumber {
+  text-align: center;
+  font-size: 0.9rem;
+}
+.container {
+  font-family: "gandom";
+  font-size: 0.9rem;
+}
+.contact {
+  list-style: none;
+  direction: rtl;
+  padding-right: 0.5rem;
+}
+.contact li {
+  margin-bottom: 0.5rem;
+}
+.social_icons {
+  margin-left: 0.5rem;
+}
+@media (min-width: 1024px) {
+  .explanation {
+    width: 80%;
+  }
+}

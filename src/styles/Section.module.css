@@ -1,0 +1,129 @@
+.mainpart {
+  display: flex;
+  flex-direction: column;
+}
+.secondpart {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.container1 {
+  margin-top: 0.8rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 300px;
+  background-color: var(--secondary);
+
+  align-items: center;
+  justify-content: center;
+  direction: rtl;
+}
+
+.secimg1 {
+  height: 140px;
+}
+
+.infoContainer1 {
+  position: relative;
+}
+.infoContainer1 a {
+  background-color: transparent;
+  border: solid 1px #131313;
+  display: inline-block;
+  color: #131313;
+  text-align: center;
+
+  text-decoration: none;
+  border-radius: 1em;
+  padding: 0.5em 1.5em;
+  font-size: 19px;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  transition: background-color 0.2s ease;
+}
+.infoContainer1 a:hover {
+  background-color: var(--primary);
+}
+
+.container2 {
+  margin-top: 0.8rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 300px;
+  background-color: var(--sixth);
+  align-items: center;
+  justify-content: center;
+  direction: rtl;
+}
+
+.secimg2 {
+  height: 140px;
+}
+
+.infoContainer2 {
+  position: relative;
+}
+.infoContainer2 a {
+  background-color: transparent;
+  border: solid 1px #131313;
+  display: inline-block;
+  color: #131313;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 1em;
+  padding: 0.5em 1.5em;
+  font-size: 19px;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  transition: background-color 0.2s ease;
+}
+.infoContainer2 a:hover {
+  background-color: var(--primary);
+}
+
+@media (min-width: 769px) {
+  .mainpart {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .secondpart {
+    height: 100%;
+    width: 40%;
+  }
+  .container1 {
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px 0.5px rgba(0, 0, 0, 0.4);
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .secimg1 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .container2 {
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px 0.5px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  .secimg2 {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+  .secondpart {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+@media (min-width: 1023px) {
+  .secimg1 {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}

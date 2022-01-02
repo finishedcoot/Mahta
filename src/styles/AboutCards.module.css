@@ -1,0 +1,87 @@
+.container {
+  width: 80%;
+  margin: auto;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.card {
+  position: relative;
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 100%;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 5rem;
+  padding-top: 3rem;
+  transition: all 0.5s ease;
+}
+.card img {
+  position: absolute;
+  border-radius: 50%;
+  height: 10rem;
+  object-fit: cover;
+  width: 10rem;
+  left: 20%;
+  top: -30%;
+  transition: all 0.5s ease;
+}
+.card:hover img {
+  height: 12rem;
+  left: 12%;
+  width: 12rem;
+}
+
+.card h1,
+p {
+  padding-right: 0.8rem;
+  padding-left: 0.5rem;
+}
+.card h1 {
+  font-size: 1.4rem;
+  transition: all 0.5s ease;
+}
+.card p {
+  transition: all 0.5s ease;
+}
+.learnMore {
+  margin: auto;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  width: 25%;
+  background-color: rgb(144, 224, 241);
+  border-radius: 10px;
+}
+.card:hover h1 {
+  transform: translateY(20px);
+}
+.card:hover p {
+  transform: translateY(10px);
+}
+@media (min-width: 767px) {
+  .container {
+    justify-content: space-around;
+  }
+  .card {
+    width: 45%;
+  }
+}
+@media (min-width: 1023px) {
+  .learnMore {
+    font-size: 1rem;
+  }
+  .card {
+    width: 30%;
+  }
+}
+@media (min-width: 1439px) {
+  .card {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 20%;
+  }
+}

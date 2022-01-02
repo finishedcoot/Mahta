@@ -1,0 +1,14 @@
+.modal {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+
+  background-color: rgba(27, 24, 24, 0.699);
+}
+.playerContainer {
+  width: 10rem;
+  height: 8rem;
+}

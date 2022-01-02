@@ -1,0 +1,88 @@
+.container {
+  position: relative;
+  width: 100% !important;
+  text-align: center;
+
+  direction: rtl;
+
+  margin-top: 5rem;
+}
+
+.container img {
+  height: 50px;
+  margin-bottom: 0.5rem;
+}
+.container h1.mahta {
+  font-family: "Gandom";
+  padding-top: 0.2rem;
+  padding-bottom: 0.5rem;
+  font-size: 15px;
+}
+.container h2 {
+  font-family: "Gandom";
+  font-size: 12px;
+}
+.container h1.mahta,
+h2.mahta {
+  margin-top: -1rem;
+}
+.container p {
+  text-align: center;
+  margin: 0.5rem 1.5rem;
+  direction: rtl;
+}
+.not_home_container p {
+  margin-bottom: 3rem;
+}
+.come {
+  font-size: 25px;
+  margin-top: 3rem;
+}
+.link {
+  font-family: "Gandom";
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  background-color: var(--primary);
+  padding: 0.3rem 1.7rem;
+  border-radius: 5px;
+}
+.link:hover {
+  background-color: rgb(123, 255, 91);
+}
+@media (min-width: 413px) {
+  .container h1.mahta {
+    font-size: 25px;
+  }
+  .container h2 {
+    font-size: 23px;
+  }
+  .container p {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1023px) {
+  .container.homeHead {
+    text-align: start;
+    padding-right: 10rem;
+  }
+  .container.homeHead h1 {
+    font-size: 2.5rem;
+  }
+
+  .container p {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .container.homeHead p {
+    text-align: start;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+  }
+
+  .container.not_home_container {
+    margin-bottom: 3rem;
+  }
+}

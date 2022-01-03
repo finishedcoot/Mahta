@@ -28,6 +28,7 @@
   height: 15rem;
 }
 .thumbnail {
+  cursor: pointer;
   box-shadow: 1px 1px 8px 0.5px rgba(0, 0, 0, 0.4);
   object-fit: cover;
 }

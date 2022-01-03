@@ -29,10 +29,14 @@ function App() {
     }
   }, [animatationEnded]);
   const loacation = useLocation();
+  console.log(window.innerWidth);
   return (
     <AnimatePresence initial={false} exitBeforeEnter={true}>
       <Routes location={loacation} key={loacation.pathname}>
-        <Route path="/" element={<Home welcome={welcome} />} />
+        <Route
+          path="/"
+          element={<Home welcome={window.innerWidth > 768 ? welcome : false} />}
+        />
         <Route path="/" element={<Layout />}>
           <Route path="/library" element={<Library />} />
           <Route path="/library/:bookName" element={<BookPage />} />

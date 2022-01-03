@@ -3,6 +3,10 @@
   display: flex;
   flex-direction: column;
 }
+.desc {
+  max-width: 60vw;
+  margin: auto;
+}
 .headImg {
   object-fit: cover;
 }

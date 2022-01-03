@@ -25,18 +25,20 @@ const HelpUs = () => {
       className={style.container}
     >
       <h1 className={style.helpMahta}>کمک به مهتا</h1>
-      <div className={style.video_container}>
-        <ReactPlayer
-          ref={player}
-          url={"/statics/intro.mp4"}
-          width={"100%"}
-          height={"100%"}
-          onEnded={reload}
-          controls={false}
-          muted={true}
-          playing={true}
-        />
-      </div>
+      {window.innerWidth > 767 ? (
+        <div className={style.video_container}>
+          <ReactPlayer
+            ref={player}
+            url={"/statics/intro.mp4"}
+            width={"100%"}
+            height={"100%"}
+            onEnded={reload}
+            controls={false}
+            muted={true}
+            playing={true}
+          />
+        </div>
+      ) : null}
       <img className={style.icon} src="/statics/heart.png" alt="donation" />
       <p className={style.explanation}>
         این کمک ها برای تشخیص و درمان بیماری های انعقاد خون (هموفیلی و

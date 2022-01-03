@@ -69,7 +69,7 @@ const Theatre = () => {
                   height="100%"
                 />
               </div>
-            ) : (
+            ) : window.innerWidth > 767 ? (
               <img
                 id={clip.id}
                 onClick={startPlaying}
@@ -77,6 +77,17 @@ const Theatre = () => {
                 alt={clip.title}
                 className={style.thumbnail}
               />
+            ) : (
+              <div className={style.largVideoContainer}>
+                <ReactPlayer
+                  className="react-player"
+                  url={clip.clipUrl}
+                  light={clip.clipCover}
+                  controls={true}
+                  width="100%"
+                  height="100%"
+                />
+              </div>
             )}
 
             <h3 id={clip.id} onClick={startPlaying}>

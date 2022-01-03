@@ -133,12 +133,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background: #ece9e6; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #a2f1fa,
-    #fff7ec
-  ); /* Chrome 10-25, Safari 5.1-6 */
   background-color: transparent;
 }
 

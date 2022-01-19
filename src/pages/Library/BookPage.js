@@ -9,7 +9,7 @@ import data from "../../assets/data/books.json";
 
 const BookPage = () => {
   const { bookName } = useParams();
-  console.log(bookName);
+
   const book = data.find((book) => {
     return bookName === `${book.url}`;
   });

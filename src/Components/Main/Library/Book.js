@@ -9,7 +9,6 @@ const Book = (props) => {
 
   const onInit = () => {
     book.current.pageFlip().turnToPage(pages[0].length - 1);
-    console.log(pages[0].length);
   };
 
   return (

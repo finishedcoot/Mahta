@@ -1,3 +1,4 @@
+Mahta is a charity for people with hemophilia, in this project I was asked to build some sort of platfrom for their informative contents such as short books and some video clips, with constant comunication and understanding of their needs I built this very simple website with reactjs, I hope to add an admin panel to is very soon.
 
 https://mahta.iran.liara.run/
 
